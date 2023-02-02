@@ -1,0 +1,26 @@
+
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* COMMON */
+body{
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+ 
+/* LETTERING STYLE*/
+h1{
+    color: #E53170;
+    font-size: 2rem;
+    text-align: center;
+}
