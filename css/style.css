@@ -7,8 +7,16 @@
 
 }
 
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    float: left;
+}
+
 .first-section{
     text-align: center;
+    margin-bottom: 2rem;
 
 }
 
@@ -30,6 +38,26 @@ body{
     font-size: 2rem;
     margin-bottom: 2rem;
     
+}
 
-    
+/* box */
+
+.box{
+    background-color: aqua;
+}
+
+.window{
+    background-color: red;
+    width: 300px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/* icons and info */
+.icon{
+    width: 30%;
 }
